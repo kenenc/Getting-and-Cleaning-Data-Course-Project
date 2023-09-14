@@ -157,7 +157,7 @@ The values can take on:
 - Walking Downstairs
 - Walking Upstairs
 ### Columns 3-68 Naming Convention
-The remaining columns are all quantitative variables consisting of doubles that are normalized and bounded from -1 to 1. 
+The remaining columns are all quantitative variables consisting of doubles that are normalized and bounded from -1 to 1 in standard gravity units "g". 
 
 Since there are too many variables to individually list and describe here, I will instead state what each "section"/prefix/suffix refers to in the context of this data set.
 
