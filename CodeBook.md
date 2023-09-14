@@ -142,11 +142,11 @@ averages <- data %>% group_by(SubjectID, Activity) %>% summarise_all(mean)
 
 ## Variable Descriptions & Naming Convention/Schema
 The following is to clarify what each variable is supposed to represent by its given properties and/or naming schema. Note that this will be pertaining to the cleaned and final data 
-set from Step 4, _not_ the uncleaned form of the data set originally provided to us for this assignment.
+set from Step 4, _not_ the uncleaned form of the data set originally provided to us for this assignment (although the definitions are fundamentally the same).
 
-### SubjectID
+### SubjectID:
 Integers ranging from 1-30, each representing the unique identifier of each subject. Each number represents a different person/subject.
-### Activity
+### Activity:
 Qualitative character strings denoting which physical activity is being performed. 
 
 The values can take on: 
@@ -156,10 +156,36 @@ The values can take on:
 - Walking 
 - Walking Downstairs
 - Walking Upstairs
-### Columns 2-68 Naming Convention
-The remaining columns are all quantitative variables consisting of doubles ranging from 
+### Columns 3-68 Naming Convention
+The remaining columns are all quantitative variables consisting of doubles that are normalized and bounded from -1 to 1. 
 
-Since there are far too many columns to individually describe, I will instead simply state what each "section"/prefix/suffix refers to in the context of this data set.
+Since there are too many variables to individually list and describe here, I will instead state what each "section"/prefix/suffix refers to in the context of this data set.
+
+**Time:** Denotes time domain signals
+
+**Freq:** Denotes frequency domain signals produced from a Fast Fourier Transform (FFT)
+
+**Body:** Denotes body signals 
+
+**Gravity:** Denotes gravity signals 
+
+**Gyro:** Denotes gyroscope readings
+
+**Acc:** Denotes accelerometer readings
+
+**Jerk:** Denotes "Jerk" signals derived from body linear acceleration and angular velocity measurements
+
+**Mag:** Denotes the magnitude of the signals, calculated using the Euclidean norm
+
+**Mean:** Denotes a mean value
+
+**Std:** Denotes a standard deviation value
+
+**X:** Denotes 3-axial signals in the X direction
+
+**Y:** Denotes 3-axial signals in the Y direction
+
+**Z:** Denotes 3-axial signals in the Z direction
 
 
 
