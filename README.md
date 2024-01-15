@@ -33,4 +33,4 @@ As per the directions:
 
 Furthermore, a repository containing the run_analysis.R script, this README file, and a code book is to be uploaded and submitted. 
 
-Please refer to the code book for a more comprehensive look into the cleaning and transformation process of the data, along with descriptions of the variable names.
+### Please refer to the code book for a more comprehensive look into the cleaning and transformation process of the data, along with descriptions of the variable names.
